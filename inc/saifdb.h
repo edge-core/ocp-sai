@@ -87,6 +87,9 @@ typedef enum _sai_fdb_event_t
     /** FDB entry flushed */
     SAI_FDB_EVENT_FLUSHED,
 
+    /** Release FDB move event storm protection */
+    SAI_FDB_EVENT_MOVE_STORM_RELEASED = 5,
+
 } sai_fdb_event_t;
 
 /**
